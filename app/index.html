@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <meta name="Author" content="Abhay Sharma" />
+    <meta name="description" content="This is a weather recording app made for udacity nanodegree project" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Weather Journal</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Weather Journal</h1>
+    </header>
+    <main>
+      <section>
+        <form id="form" autocomplete="off">
+          <input type="text" id="zip" class="input-field" placeholder="Enter you pincode" />
+          <textarea id="feelings" class="input-field" rows="1" placeholder="Express your feelings here"></textarea>
+          <input type="submit" id="generate" value="Get Report" />
+        </form>
+      </section>
+      <section id="data">
+        <h2 class="section-title">Recently Recorded Data</h2>
+        <div class="details">
+          <p class="details-title blue">Date</p>
+          <p class="details-title blue">Temperature</p>
+          <p class="details-title blue">Feeling</p>
+        </div>
+      </section>
+    </main>
+    <script src="./js/app.js" type="text/javascript"></script>
+  </body>
+</html>

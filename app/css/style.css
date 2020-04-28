@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Bangers&display=swap');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Tamma 2', cursive;
+  background: #f5f5f5;
+}
+
+.white {
+  color: #444;
+}
+
+.blue {
+  color: #1b7ae6;
+}
+
+.header {
+  background: #1b7ae6;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5em;
+  color: white;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px 0;
+  border: 0;
+  color: #444;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+.input-error {
+  border: 1px solid rgb(248, 31, 11);
+  color: red;
+}
+
+.section-title {
+  text-align: center;
+  color: #1b1b1b;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.details p {
+  text-align: left;
+}
+
+#form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin: 10px;
+}
+
+#generate {
+  background: #1b7ae6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px #00000030;
+}
+
+#generate:hover {
+  background: #0076fd;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .title {
+    font-size: 3em;
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
